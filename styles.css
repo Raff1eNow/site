@@ -269,6 +269,7 @@ widget {
       }
       .ticketBtn {
         display: block;
+        float: right;
         font-size: 10px;
         font-weight: bold;
         background-color: #5d9cec;
