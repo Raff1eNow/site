@@ -253,22 +253,6 @@ document
     });
   });
 
-// Unix timestamp (in seconds) to count down to
-var month = 2; // January
 
-var d = new Date(2024, month + 1, 0);
-var FromNow = d.getTime() / 1000 + 86400 * 2;
-// Set up FlipDown
-var flipdown = new FlipDown(FromNow)
 
-  // Start the countdown
-  .start()
 
-  // Do something when the countdown ends
-  .ifEnded(() => {
-    console.log("The countdown has ended!");
-  });
-
-// Toggle theme
-JsBarcode(".barcode1", "6787-676-7887");
-JsBarcode(".barcode2", "6787-678-7889");
